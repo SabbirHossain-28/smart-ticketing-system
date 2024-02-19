@@ -29,7 +29,7 @@ for(let ticketSelectBtn of allTicketSelectBtn){
             ticketSelectBtn.disabled=true;
         }
 
-        if (totalCurrentSeatQuantity === 36) {
+        if (totalCurrentSeatQuantityNum === 36) {
             for(let disabledCurrentSeat of allTicketSelectBtn)
             disabledCurrentSeat.disabled = true;
             alert('You can select maximum 4 tickets');
